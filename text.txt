@@ -1,0 +1,17 @@
+data/clothing/: Contains images of virtual clothing (T-shirts, hats, etc.) that will be overlaid on the user in real-time.
+
+src/body_pose_detection.py: Detects body keypoints (like shoulders and hips) using OpenCV for overlaying clothing.
+
+src/face_detection.py: Detects the face and facial landmarks (like eyes) using OpenCV for overlaying glasses or hats.
+
+src/webcam_feed.py: Captures real-time video feed from the webcam and handles image preprocessing.
+
+src/fit_refinement.py: Defines and trains the TensorFlow LSTM model for refining clothing fit based on user movement.
+
+src/virtual_tryon.py: The main script that integrates all components (face detection, body pose detection, virtual clothing overlay) into the try-on system.
+
+src/utils.py: Contains helper functions for preprocessing, resizing clothing images, and overlaying them onto the body.
+
+models/lstm_model.h5: Stores the trained LSTM model that predicts pose adjustments for fit refinement.
+
+requirements.txt: Lists Python packages like opencv-python, tensorflow, and any others needed for the project.

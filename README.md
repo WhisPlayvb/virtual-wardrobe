@@ -16,30 +16,26 @@
 
 3. Open the project in Visual Studio Code.
 4. Create and activate a Python virtual environment:
-py -m venv venv
-venv\Scripts\activate
+   ```bash
+    py -m venv venv
+    venv\Scripts\activate
 5. Install required dependencies:
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
 Running the Application
 Use the following commands to run different parts of the application:
-python src/webcam_feed.py         # Starts the webcam feed
-python src/face_detection.py      # Runs face detection
-python src/body_pose_detection.py # Runs body pose detection
-python src/virtual_tryon.py       # Starts the virtual try-on experience
-Contributing
-Contributions are welcome! To contribute:
-
-Open an issue to discuss your proposed changes.
-Once approved, submit a pull request.
-License
-This project is licensed under the MIT License (or insert your preferred license here).
+   ```bash
+    python src/webcam_feed.py
+    python src/face_detection.py
+    python src/body_pose_detection.py
+    python src/virtual_tryon.py
 
 Contributing
- Isha Agrawal  155
- Vinayak Bhoir 150
- Pankaj Harer   231
- Pratik Yelkar    157 
+ Isha Agrawal   ( rollno:155 )
+ Vinayak Bhoir  ( rollno:150 )
+ Pankaj Harer   ( rollno:231 )
+ Pratik Yelkar  ( rollno:157 )
 
 License
 This project is licensed under the...... 

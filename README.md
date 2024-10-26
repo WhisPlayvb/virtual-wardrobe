@@ -33,10 +33,10 @@ Use the following commands to run different parts of the application:
     python src/virtual_tryon.py
 ```
 ## Contributing
- Isha Agrawal   ( rollno:155 )
- Vinayak Bhoir  ( rollno:150 )
- Pankaj Harer   ( rollno:231 )
- Pratik Yelkar  ( rollno:157 )
+ Isha Agrawal   ( rollno: 155 )  
+ Vinayak Bhoir  ( rollno: 150 )  
+ Pankaj Harer   ( rollno: 231 )  
+ Pratik Yelkar  ( rollno: 157 )  
 
 ## License
 This project is licensed under the...... 

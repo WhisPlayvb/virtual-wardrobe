@@ -12,32 +12,33 @@
 2. **Clone the repository**:
    ```bash
    git clone https://github.com/WhisPlayvb/virtual-wardrobe.git
-
+    ```
 
 3. Open the project in Visual Studio Code.
 4. Create and activate a Python virtual environment:
    ```bash
     py -m venv venv
     venv\Scripts\activate
+    ```
 5. Install required dependencies:
    ```bash
     pip install -r requirements.txt
-
-Running the Application
+    ```
+## Running the Application
 Use the following commands to run different parts of the application:
    ```bash
     python src/webcam_feed.py
     python src/face_detection.py
     python src/body_pose_detection.py
     python src/virtual_tryon.py
-
-Contributing
+```
+## Contributing
  Isha Agrawal   ( rollno:155 )
  Vinayak Bhoir  ( rollno:150 )
  Pankaj Harer   ( rollno:231 )
  Pratik Yelkar  ( rollno:157 )
 
-License
+## License
 This project is licensed under the...... 
 .
 .
